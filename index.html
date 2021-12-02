@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+
+    <!-- boxicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+        <section class="login grid">
+            <div class="login_content content grid">
+                <h1 class="login_title">Log In</h1>
+                <form action="#" class="login_form">
+                    <div class="form_list">
+                        <label for="username" class="form_title">Username :</label>
+                            <div class="input input_color">   
+                            <div class="input_overlay"></div>
+                            
+                            <i class='bx bx-user input_user'></i>
+                            <input type="text" class="input_form" placeholder="username">
+                            <i class='bx bx-check-circle input_icon'></i>   
+                        </div>
+                    </div>
+                    <div class="form_list">
+                        <label for="password" class="form_title">Password :</label>
+                        <div class="input input_color">
+                            <div class="input_overlay" id="input-overlay"></div>
+
+                            <i class='bx bx-lock-alt input_lock' ></i>
+                            <input type="password" class="input_form password" id="input-pass" placeholder="password">
+                             <i class='bx bx-hide input_icon' id="input-btn-hide"></i>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <a href="#" class="btn btn_login">Login
+                            <i class='bx bx-log-in-circle btn-icon' ></i>
+                        </a>
+                    </div>
+                    <div class="form_link">
+                        <a href="#" class="btn btn_link">Register</a>
+                        <a href="#" class="btn btn_link">Forgot password</a>
+                    </div>
+                </form>
+                <div class="login_social">
+                    <a href="#" class="btn btn_social-login facbook">
+                        Login With Facbook
+                        <i class='bx bxl-facebook-circle social-icon'></i>
+                    </a>
+                    <a href="#" class="btn btn_social-login google">
+                        Login With Google
+                        <i class='bx bxl-google social-icon' ></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
